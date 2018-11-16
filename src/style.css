@@ -1,0 +1,20 @@
+/*Formato de encabezados o párrafos*/
+p{
+  font-family: monospace;
+}
+/*Formato de caja para ingresar offset*/
+.key{
+  height:20px;
+  width: 20px;
+  text-align: center;
+  font-family: monospace;
+  border: solid;
+}
+/*Formato de caja para ingresar texto*/
+.text{
+  height:100px;
+  width: 350px;
+  text-align: justify;
+  font-family: monospace;
+  border: solid;
+}
