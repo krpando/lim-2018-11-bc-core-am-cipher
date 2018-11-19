@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AT-CSC</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+<!--Section One: Welcome Page-->
+      <section class="one" id="section1">
+        <img src="https://image.ibb.co/c66GQL/Anti-Teacher.png" width="230px" height="180px"></img>
+          <p>Key</p><input placeholder="#" class="key" id="y"></input>
+          <p>Texto</p><input placeholder="Escribe aquí lo que se te cante xD" class="text" id="x"></input></br></br>
+            <button onclick="cifrar()" class="cip">CIFRAR</button>
+            <button onclick="descifrar()" class="des">DESCIFRAR</button>
+      </section>
+<!--Section Two: Results Page-->
+      <section class="two" id="section2">
+        <img src="https://image.ibb.co/c66GQL/Anti-Teacher.png" width="220px" height="180px"></img>
+          <p>Resultado</p><p class="result" id="z"></p></br></br>
+            <button onclick="back()" class="back">REGRESAR</button>
+            <button onclick="hide()" class="hide">HIDE!</button>
+      </section>
+<!--Section Three: Let's hide!-->
+      <section class="three" id="section3">
+        <img id="img3" src="https://image.ibb.co/gvFhzf/Dato-Historico.png" width="460px" height="315px"></img></br>
+          <button onclick="playing()" class="play">SEGUIR JUGANDO</button>
+          <button onclick="studying()" class="study">QUIERO ESTUDIAR</button>
+      </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-  <!--Section One: Welcome Page-->
-    <section class="one">
-      <p>Key</p><input placeholder="#" class="key"></input>
-      <p>Texto</p><input placeholder="Escribe aquí lo que se te cante xD" class="text"></input>
-      <div id="root"></div>
-    </section>
-  <!--Section One: Welcome Page-->
   </body>
 </html>
-<

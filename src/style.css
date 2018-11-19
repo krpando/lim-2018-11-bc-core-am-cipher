@@ -1,20 +1,152 @@
-/*Formato de encabezados o párrafos*/
-p{
+/*SECTION ONE*/
+/*Formato de sección*/
+.one{
+  padding-top: 25px;
   font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  border: 20px inset blue;
+  height: 400px;
 }
 /*Formato de caja para ingresar offset*/
 .key{
   height:20px;
-  width: 20px;
+  width: 50px;
   text-align: center;
   font-family: monospace;
-  border: solid;
+  border-radius: 10px;
 }
 /*Formato de caja para ingresar texto*/
 .text{
-  height:100px;
-  width: 350px;
-  text-align: justify;
+  height:50px;
+  width: 500px;
+  text-align: center;
   font-family: monospace;
-  border: solid;
+  border-radius: 15px;
+}
+/*Botón para cifrar*/
+.cip{
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 8px;
+  border: 2px solid blue;
+}
+.cip:hover{
+  color: blue;
+  background-color: #ffffff;
+  border: 2px solid blue;
+ }
+/*Botón para descrifrar*/
+.des{
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 8px;
+  border: 2px solid blue;
+}
+.des:hover{
+  color: blue;
+  background-color: #ffffff;
+  border: 2px solid blue;
+ }
+/*SECTION two*/
+/*Formato de sección*/
+.two{
+  padding-top: 25px;
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  border: 20px inset blue;
+  height: 400px;
+}
+/*Formato para texto resultado*/
+.result{
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+/*Botón para regresar a sección principal*/
+.back{
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 8px;
+  border: 2px solid blue;
+}
+.back:hover{
+  color: blue;
+  background-color: #ffffff;
+  border: 2px solid blue;
+ }
+/*Botón para esconder actividad*/
+.hide{
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 8px;
+  border: 2px solid blue;
+}
+.hide:hover{
+  color: white;
+  background-color: red;
+  border: 2px solid red;
+}
+/*SECTION three*/
+/*Formato de sección*/
+.three{
+  padding-top: 25px;
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: 20px inset blue;
+  height: 400px;
+}
+/*Formato de imagen*/
+img{
+  padding: 1px 5px 15px 5px;
+}
+/*Botón para seguir jugando*/
+.play{
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 8px;
+  border: 2px solid;
+}
+.play:hover{
+  color: blue;
+  background-color: #ffffff;
+  border: 2px solid;
+ }
+/*Botón para seguir escondiendo actividad*/
+.study{
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 8px;
+  border: 2px solid;
+}
+.study:hover{
+  color: red;
+  background-color: white;
+  border: 2px solid red;
 }
