@@ -1,32 +1,24 @@
 window.cipher = {
-//Cifrar mensaje
-function cifrar(){
-  let word=document.getElementById("x").value;
-  let code=parseInt(document.getElementById("y").value);
-  let vao=new Array();
-    for(let position=0;position<word.length;position+=1){
-      let total=word.charCodeAt(position);
-          if(word.charCodeAt(position)===32){
-       vao.push(" ");
-       } else  
-        vao.push(String.fromCharCode(`${(total-65+code)%26+65}`));}
-            document.getElementById("z").innerHTML=vao.join("");
-            document.getElementById("section1").style.display="none";
-            document.getElementById("section2").style.display="block";
-}
-//Descifrar mensaje
-function descifrar(){
-  let word=document.getElementById("x").value;
-  let code=parseInt(document.getElementById("y").value);
-  let vao=new Array();
-    for(let position=0;position<word.length;position+=1){
-      let total=word.charCodeAt(position);
-          if(word.charCodeAt(position)===32){
-       vao.push(" ");
-       } else
-        vao.push(String.fromCharCode(`${(total-65-code)%26+65}`));}
-            document.getElementById("z").innerHTML=vao.join("");
-            document.getElementById("section1").style.display="none";
-            document.getElementById("section2").style.display="block";
-    }
+//Función Cifrar
+  const encode = (offset, string) => {
+    let textOut=new Array();
+     for(let i=0;i<string.length;i+=1){
+        let coded=parseInt(string.charCodeAt(i));
+        if(string.charCodeAt(i)===32){
+         textOut.push(" ");
+        } else
+         textOut.push(String.fromCharCode(`${(coded-65+offset)%26+65}`));
+     } return textOut.join("");
+  };
+//Función Descifrar
+  const decode = (offset, string) => {
+    let textOut=new Array();
+     for(let i=0;i<string.length;i+=1){
+        let coded=parseInt(string.charCodeAt(i));
+        if(string.charCodeAt(i)===32){
+         textOut.push(" ");
+        } else
+         textOut.push(String.fromCharCode(`${(coded-65-offset)%26+65}`));
+     } return textOut.join("");
+  };
 };

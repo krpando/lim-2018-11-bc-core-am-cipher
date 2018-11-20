@@ -2,30 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AT-CSC</title>
+    <title>ANTI -TEACHER Your classroom secreat encryptioner</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+    <body>
 <!--Section One: Welcome Page-->
       <section class="one" id="section1">
-        <img src="https://image.ibb.co/c66GQL/Anti-Teacher.png" width="230px" height="180px"></img>
-          <p>Key</p><input placeholder="#" class="key" id="y"></input>
-          <p>Texto</p><input placeholder="Escribe aquí lo que se te cante xD" class="text" id="x"></input></br></br>
-            <button onclick="cifrar()" class="cip">CIFRAR</button>
-            <button onclick="descifrar()" class="des">DESCIFRAR</button>
+        <div><img src="https://image.ibb.co/c66GQL/Anti-Teacher.png" width="230px" height="180px"></img>
+        </div>
+          <form><label>Key</label><input type="password" placeholder="#" class="key" id="code"></input>
+                <label>Mensaje</label><input placeholder="Aquí mero es donde ocurre la magia. Escribe lo que se te cante :P" class="text" id="msg"></input>
+                  <button class="cif" id="codi">CIFRAR</button>
+                  <button class="des" id="decodi">DESCIFRAR</button>
+          </form>
       </section>
 <!--Section Two: Results Page-->
       <section class="two" id="section2">
-        <img src="https://image.ibb.co/c66GQL/Anti-Teacher.png" width="220px" height="180px"></img>
-          <p>Resultado</p><p class="result" id="z"></p></br></br>
-            <button onclick="back()" class="back">REGRESAR</button>
-            <button onclick="hide()" class="hide">HIDE!</button>
+        <div><img src="https://image.ibb.co/c66GQL/Anti-Teacher.png" width="220px" height="180px"></img>
+        </div>
+          <form><label>Resultado (Oh, wow!)</label>
+            <p class="resultado" id="result"></p>
+              <button class="copiar" id="copy"></button>
+                <button class="retornar" id="back">VOLVER A INICIO</button>
+                <button class="esconder" id="hide">HIDE!</button>
+          </form>
       </section>
 <!--Section Three: Let's hide!-->
       <section class="three" id="section3">
-        <img id="img3" src="https://image.ibb.co/gvFhzf/Dato-Historico.png" width="460px" height="315px"></img></br>
-          <button onclick="playing()" class="play">SEGUIR JUGANDO</button>
-          <button onclick="studying()" class="study">QUIERO ESTUDIAR</button>
+        <div><img src="https://image.ibb.co/gvFhzf/Dato-Historico.png" width="460px" height="315px" class="imghide"></img>
+        </div>
+          <form><button class="play" id="playing">SEGUIR JUGANDO</button>
+                <button class="study" id="studying">QUIERO ESTUDIAR</button>
+          </form>
       </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

@@ -1,23 +1,20 @@
-//Display inicial. Muestra solo el Menú Principal
-document.getElementById("section1").style.display="block";
-document.getElementById("section2").style.display="none";
-document.getElementById("section3").style.display="none";
-//Retornar a Menú Principal
-function back(){
-  document.getElementById("section1").style.display="block";
-  document.getElementById("section2").style.display="none";
-}
-//Abrir sección para esconder actividad
-function hide(){
-  document.getElementById("section2").style.display="none";
-  document.getElementById("section3").style.display="block";
-}
-//Retornar al mensaje
-function playing(){
-  document.getElementById("section3").style.display="none";
-  document.getElementById("section2").style.display="block";
-}
-//Abrir sección para esconder actividad
-function studying(){
-  document.getElementById("section3").style.display="none";
-}
+//Botones cifrar y descifrar
+let textIn=document.getElementById('msg');
+let keySet=document.getElementById('codi');
+let buttonMsgOn=document.getElementById('cif');
+let buttonMsgOff=document.getElementById('des');
+let msgOut=document.getElementById('result');
+
+buttonMsgOn.addEventListener('click', ()=>{
+  msgOut.innerHTML=encode(parseInt(keySet.value),textIn.value);
+});
+
+buttonMsgOff.addEventListener('click', ()=>{
+  msgOut.innerHTML=decode(parseInt(keySet.value),textIn.value);
+});
+//Botones "Seguir jugando" y "Quiero estudiar"
+const jugando=document.getElementById('playing');
+const estudiando=document.getElementById('studying');
+jugando.addEventListener('click', ()=>{
+  
+});

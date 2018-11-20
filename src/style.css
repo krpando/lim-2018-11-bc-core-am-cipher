@@ -1,6 +1,7 @@
 /*SECTION ONE*/
 /*Formato de sección*/
 .one{
+  /*display: block;*/
   padding-top: 25px;
   font-family: monospace;
   font-size: 15px;
@@ -27,7 +28,7 @@
   border-radius: 15px;
 }
 /*Botón para cifrar*/
-.cip{
+.cif{
   padding: 10px;
   font-weight: 500;
   font-size: 18px;
@@ -36,7 +37,7 @@
   border-radius: 8px;
   border: 2px solid blue;
 }
-.cip:hover{
+.cif:hover{
   color: blue;
   background-color: #ffffff;
   border: 2px solid blue;
@@ -59,6 +60,7 @@
 /*SECTION two*/
 /*Formato de sección*/
 .two{
+/*  display: none;*/
   padding-top: 25px;
   font-family: monospace;
   font-size: 15px;
@@ -69,28 +71,38 @@
   height: 400px;
 }
 /*Formato para texto resultado*/
-.result{
+.resultado{
   text-align: center;
   font-family: monospace;
   font-size: 20px;
 }
+/*Botón copiar mensaje*/
+.copiar{
+  padding: 10px;
+  font-weight: 350;
+  font-size: 15px;
+  color:black;
+  background-color: gray;
+  border-radius: 8px;
+  border: 2px solid blue;
+}
 /*Botón para regresar a sección principal*/
-.back{
+.retornar{
   padding: 10px;
   font-weight: 500;
   font-size: 18px;
-  color: #ffffff;
+  color:#ffffff;
   background-color: blue;
   border-radius: 8px;
   border: 2px solid blue;
 }
-.back:hover{
+.retornar:hover{
   color: blue;
   background-color: #ffffff;
   border: 2px solid blue;
  }
 /*Botón para esconder actividad*/
-.hide{
+.esconder{
   padding: 10px;
   font-weight: 500;
   font-size: 18px;
@@ -99,7 +111,7 @@
   border-radius: 8px;
   border: 2px solid blue;
 }
-.hide:hover{
+.esconder:hover{
   color: white;
   background-color: red;
   border: 2px solid red;
@@ -107,6 +119,7 @@
 /*SECTION three*/
 /*Formato de sección*/
 .three{
+/*  display: none;*/
   padding-top: 25px;
   font-family: monospace;
   font-size: 18px;
@@ -116,8 +129,8 @@
   border: 20px inset blue;
   height: 400px;
 }
-/*Formato de imagen*/
-img{
+/*Formato imagen section 3*/
+.imghide{
   padding: 1px 5px 15px 5px;
 }
 /*Botón para seguir jugando*/
