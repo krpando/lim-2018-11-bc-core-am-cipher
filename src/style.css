@@ -1,35 +1,69 @@
-/*SECTION ONE*/
-/*Formato de sección*/
-.one{
-  /*display: block;*/
-  padding-top: 25px;
-  font-family: monospace;
+body{
+  background-image:url(https://preview.ibb.co/ha0Jjq/Anti-Teacher-Background.png);
+  background-attachment: fixed;
+}
+/*Formato general de secciones*/
+.one,.two,.three {
+  margin:auto;
+  margin-top:100px;
+  margin-bottom:100px;
+  width: 700px;
+  height: 400px;
+  box-shadow: 0 4px 8px 0, 0 6px 20px 0;
+  padding: 20px 0px;
+  box-sizing:border-box;
+  font-family: sans-serif;
   font-size: 15px;
-  text-align: center;
+  border-radius: 20px;
+}
+/*SECTION ONE*/
+.one{
   color: black;
   background-color: yellow;
-  border: 20px inset blue;
-  height: 400px;
 }
+.imgfront{
+  width:330px;
+  height:280px;
+}
+#imgcif:hover {
+    content: url('https://image.ibb.co/e6kUqV/Anti-Teacher-1.png');
+}
+#imgdes:hover {
+    content: url('https://image.ibb.co/b6upqV/Anti-Teacher-2.png');
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px 10px 10px 5px;
+  font-size: 18px;
+  text-align: center;
+  }
 /*Formato de caja para ingresar offset*/
-.key{
+.clave{
   height:20px;
   width: 50px;
   text-align: center;
-  font-family: monospace;
+  font-family: sans-serif;
   border-radius: 10px;
 }
 /*Formato de caja para ingresar texto*/
-.text{
-  height:50px;
-  width: 500px;
+.mensaje,.resultado{
+  margin: -10px 0 0 0;
+  height:150px;
+  width: 250px;
+  resize: none;
   text-align: center;
-  font-family: monospace;
+  font-family: sans-serif;
   border-radius: 15px;
+  padding-top:10px;
 }
-/*Botón para cifrar*/
-.cif{
+/*Botones para cifrar y descifrar*/
+.cifrar,.descifrar,.continuar,.estudiar{
   padding: 10px;
+  margin: 10px 0;
   font-weight: 500;
   font-size: 18px;
   color: #ffffff;
@@ -37,129 +71,75 @@
   border-radius: 8px;
   border: 2px solid blue;
 }
-.cif:hover{
-  color: blue;
-  background-color: #ffffff;
-  border: 2px solid blue;
- }
-/*Botón para descrifrar*/
-.des{
-  padding: 10px;
-  font-weight: 500;
-  font-size: 18px;
-  color: #ffffff;
-  background-color: blue;
-  border-radius: 8px;
-  border: 2px solid blue;
-}
-.des:hover{
-  color: blue;
-  background-color: #ffffff;
-  border: 2px solid blue;
+.cifrar:hover,.descifrar:hover{
+  color: white;
+  background-color: black;
+  border: 2px solid black;
  }
 /*SECTION two*/
-/*Formato de sección*/
-.two{
-/*  display: none;*/
-  padding-top: 25px;
-  font-family: monospace;
-  font-size: 15px;
-  text-align: center;
+.two {
+  padding:15px;
+  box-sizing:border-box;
+  box-shadow: none;
+  color: white;
+  background-color: blue;
+  font-size: 8px;
+}
+/*Botón para copiar mensaje*/
+.enviar{
+  margin:8px;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  border-color: black;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.enviar:hover{
+  color: white;
+  border-color: white;
+  background-color: blue;
+}
+/*Botones para regresar a sección principal o esconderse*/
+.inicio,.esconder{
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
   color: black;
   background-color: yellow;
-  border: 20px inset blue;
-  height: 400px;
-}
-/*Formato para texto resultado*/
-.resultado{
-  text-align: center;
-  font-family: monospace;
-  font-size: 20px;
-}
-/*Botón copiar mensaje*/
-.copiar{
-  padding: 10px;
-  font-weight: 350;
-  font-size: 15px;
-  color:black;
-  background-color: gray;
   border-radius: 8px;
   border: 2px solid blue;
 }
-/*Botón para regresar a sección principal*/
-.retornar{
-  padding: 10px;
-  font-weight: 500;
-  font-size: 18px;
-  color:#ffffff;
-  background-color: blue;
-  border-radius: 8px;
-  border: 2px solid blue;
+.inicio:hover{
+  color: white;
+  background-color: black;
+  border: 2px solid black;
 }
-.retornar:hover{
-  color: blue;
-  background-color: #ffffff;
-  border: 2px solid blue;
- }
 /*Botón para esconder actividad*/
-.esconder{
-  padding: 10px;
-  font-weight: 500;
-  font-size: 18px;
-  color: #ffffff;
-  background-color: blue;
-  border-radius: 8px;
-  border: 2px solid blue;
-}
 .esconder:hover{
   color: white;
   background-color: red;
   border: 2px solid red;
 }
 /*SECTION three*/
-/*Formato de sección*/
-.three{
-/*  display: none;*/
-  padding-top: 25px;
-  font-family: monospace;
-  font-size: 18px;
-  text-align: center;
-  color: black;
-  background-color: white;
-  border: 20px inset blue;
-  height: 400px;
-}
-/*Formato imagen section 3*/
 .imghide{
-  padding: 1px 5px 15px 5px;
+  width:410px;
+  height:280px;
 }
-/*Botón para seguir jugando*/
-.play{
-  padding: 10px;
-  font-weight: 500;
-  font-size: 18px;
-  color: #ffffff;
-  background-color: blue;
-  border-radius: 8px;
-  border: 2px solid;
+.three {
+  text-align:center;
+  background-color: white;
 }
-.play:hover{
+/*Botón para seguir con la aplicación o salir de ella*/
+.continuar:hover{
   color: blue;
   background-color: #ffffff;
   border: 2px solid;
  }
-/*Botón para seguir escondiendo actividad*/
-.study{
-  padding: 10px;
-  font-weight: 500;
-  font-size: 18px;
-  color: #ffffff;
-  background-color: blue;
-  border-radius: 8px;
-  border: 2px solid;
-}
-.study:hover{
-  color: red;
-  background-color: white;
+.estudiar:hover{
+  color: white;
+  background-color: red;
   border: 2px solid red;
 }
