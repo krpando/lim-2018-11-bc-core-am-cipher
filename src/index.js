@@ -39,6 +39,7 @@ document.getElementById('hide').addEventListener('click', ()=>{
 document.getElementById('continue').addEventListener('click', ()=>{
   document.getElementById('section3').style.display='none';
   document.getElementById('section2').style.display='block';
+  document.body.style.background = 'url(https://preview.ibb.co/ha0Jjq/Anti-Teacher-Background.png)';
 });
 //"Quiero estudiar"
 document.getElementById('study').addEventListener('click', ()=>{

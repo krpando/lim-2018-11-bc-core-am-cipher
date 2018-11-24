@@ -125,12 +125,17 @@ body{
 }
 /*SECTION three*/
 .imghide{
-  width:410px;
-  height:280px;
+  width:610px;
+  height:420px;
+  margin-bottom: 20px;
 }
 .three {
   text-align:center;
   background-color: white;
+  margin-top:35px;
+  margin-bottom:35px;
+  width: 700px;
+  height: 560px;
 }
 /*Botón para seguir con la aplicación o salir de ella*/
 .continuar:hover{
