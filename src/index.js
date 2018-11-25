@@ -10,18 +10,26 @@ let buttonMsgOut=document.getElementById('deco');
 let msgOut=document.getElementById('result');
 //Correr función cifrar
 buttonMsgIn.addEventListener('click', ()=>{
-  msgOut.innerHTML=encode(parseInt(keyNumber.value),msgIn.value);
+  msgOut.innerHTML=cipher.encode(parseInt(keyNumber.value),msgIn.value);
   document.getElementById('personalresult').innerHTML='Listo! ahora es secreto ( ͡° ͜ʖ ͡°)';
   document.getElementById('section1').style.display='none';
   document.getElementById('section2').style.display='block';
+  document.getElementById('key').value="";
+  document.getElementById('msg').value="";
 });
 //Correr función descifrar
 buttonMsgOut.addEventListener('click', ()=>{
-  msgOut.innerHTML=decode(parseInt(keyNumber.value),msgIn.value);
+  msgOut.innerHTML=cipher.decode(parseInt(keyNumber.value),msgIn.value);
   document.getElementById('personalresult').innerHTML='Uy! que interesante ( ͡° ͜ʖ ͡°)';
   document.getElementById('section1').style.display='none';
   document.getElementById('section2').style.display='block';
+  document.getElementById('key').value="";
+  document.getElementById('msg').value="";
 });
+/*Botón enviar texto copiado por Web.Whatsapp
+document.getElementById('send').addEventListener('click', ()=>{
+https://web.whatsapp.com/
+});*/
 //Botón retornar al Menú
 document.getElementById('start').addEventListener('click', ()=>{
   document.getElementById('section2').style.display='none';
@@ -29,7 +37,7 @@ document.getElementById('start').addEventListener('click', ()=>{
 });
 //Botón ocultarse
 document.getElementById('hide').addEventListener('click', ()=>{
-   document.title = 'Me gusta estudiar :v';
+   document.title = 'Me gusta estudiar :V';
    document.body.style.backgroundImage = 'none';
    document.body.style.backgroundColor = '#000000';
    document.getElementById('section2').style.display='none';
@@ -40,9 +48,9 @@ document.getElementById('continue').addEventListener('click', ()=>{
   document.getElementById('section3').style.display='none';
   document.getElementById('section2').style.display='block';
   document.body.style.background = 'url(https://preview.ibb.co/ha0Jjq/Anti-Teacher-Background.png)';
+  document.title = 'ANTI -TEACHER. Your secreat classroom encryptioner';
 });
 //"Quiero estudiar"
 document.getElementById('study').addEventListener('click', ()=>{
   document.getElementById('section3').style.display='none';
 });
-//https://web.whatsapp.com/
