@@ -10,22 +10,28 @@ let buttonMsgOut=document.getElementById('deco');
 let msgOut=document.getElementById('result');
 //Correr función cifrar
 buttonMsgIn.addEventListener('click', ()=>{
+if (keyNumber.value=='' || msgIn.value==''){
+  alert('Debes rellenar el campo antes de continuar :/');
+} else{
   msgOut.innerHTML=cipher.encode(parseInt(keyNumber.value),msgIn.value);
   document.getElementById('personalresult').innerHTML='Listo! ahora es secreto ( ͡° ͜ʖ ͡°)';
   document.getElementById('section1').style.display='none';
   document.getElementById('section2').style.display='block';
   document.getElementById('key').value="";
   document.getElementById('msg').value="";
-});
+}});
 //Correr función descifrar
 buttonMsgOut.addEventListener('click', ()=>{
+  if (keyNumber.value=='' || msgIn.value==''){
+    alert('Debes rellenar el campo antes de continuar :/');
+  } else {
   msgOut.innerHTML=cipher.decode(parseInt(keyNumber.value),msgIn.value);
   document.getElementById('personalresult').innerHTML='Uy! que interesante ( ͡° ͜ʖ ͡°)';
   document.getElementById('section1').style.display='none';
   document.getElementById('section2').style.display='block';
   document.getElementById('key').value="";
   document.getElementById('msg').value="";
-});
+}});
 /*Botón enviar texto copiado por Web.Whatsapp
 document.getElementById('send').addEventListener('click', ()=>{
 https://web.whatsapp.com/
