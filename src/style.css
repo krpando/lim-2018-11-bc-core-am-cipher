@@ -10,13 +10,14 @@ body{
   margin-top:100px;
   margin-bottom:10px;
   width: 700px;
-  height: 480;
+  height: 390px;
   box-shadow: 0 4px 8px 0, 0 6px 20px 0;
   padding: 20px 0px;
   box-sizing:border-box;
   font-family: sans-serif;
   font-size: 15px;
   border-radius: 20px;
+  display: flex;
 }
 .autoria{
  text-align: center;
@@ -166,7 +167,7 @@ body{
   border: 2px solid red;
 }
 @media(max-width: 700px) {
-  form {
-  width: 100%;
+  .grid-container {
+   width: 100%;
   }
 }
