@@ -1,19 +1,16 @@
 # ANTI-TEACHER: My secret classroom encryptioner
-<div style="text-align: justify;">
-`ANTI TEACHER, My secret classroom encryptioner` es una aplicación web para el cifrado y descifrado de mensajes secretos para uso de estudiantes en contextos educativos que incluyan el uso de herramientas tecnológicas, lo que usualmente refiere a las clases de Informática, Computación u otros cursos que integren estos recursos durante su desarrollo. 
 
-La dinámica de esta aplicación asemeja la de un juego de ocultar mensajes con símbolos, utilizando un alfabeto creado para dicho fin. La diferencia entre esa forma de encriptar es que, ANTI-TEACHER, ofrece un cifrado tipo César, donde se sustituye una letra de alfabeto por otra que se encuentra a cierto número de posiciones o desplazamiento en el mismo alfabeto. De esta forma, a través de un número fijo, se obtendrá un texto único y solo descifrado con ese número escogido.
+**ANTI TEACHER, My secret classroom encryptioner** es una aplicación web para el cifrado y descifrado de mensajes secretos para uso de estudiantes en contextos educativos que incluyan el uso de herramientas tecnológicas, lo que usualmente refiere a las clases de Informática, Computación u otros cursos que integren estos recursos durante su desarrollo. 
 
-A continuación se detallan las instrucciones y funcionalidad de la aplicación:</div>
+La dinámica de esta aplicación asemeja la de un juego de ocultar mensajes con símbolos, utilizando un alfabeto creado para dicho fin. La diferencia entre esa forma de encriptar es que, `ANTI-TEACHER`, ofrece un cifrado tipo César, donde se sustituye una letra de alfabeto por otra que se encuentra a cierto número de posiciones o desplazamiento en el mismo alfabeto. De esta forma, a través de un número fijo, se obtendrá un texto único y solo descifrado con ese número escogido.
+
+A continuación se detallan las instrucciones y funcionalidad de la aplicación:
 
 <p align="center"><img src="https://i.ibb.co/tcdkmq4/Anti-Teacher.png" width="400px"/></p>
 
-<div style="text-align: center;">
-|-ANTI-TEACHER-|</br>
--My secret classroom encryptioner-
-</div>
-</br>
-<div style="text-align: justify;">
+<center>|-ANTI-TEACHER-|</center>
+<center>-My secret classroom encryptioner-</center>
+
 Bienvenidx a ATMSCE o para abreviar "Anti-teacher", "Anti-ti" o como quieras llamarle. Esta aplicación es la solución a todos tus problemas ¿A todos? A todos! 
 
 Los tiempos de compartir secretos está cambiando, con la constante aparición de hackers y chismosxs de todo tipo, mantener el secreto en nuestras comunicaciones es cada vez más difícil.
@@ -40,7 +37,7 @@ Los tiempos de compartir secretos está cambiando, con la constante aparición d
   2. Cuando ya no hayan "moros en la costa", hazle 'click' a "CONTINUAR" y sigue con lo tuyo.
   3. Si el peligro aun no ha pasado, hazle 'click' al botón del pánico "QUIERO ESTUDIAR" y la aplicación abrirá una página de Wikipedia para que "sigas aprendiendo" acerca del gran Alan Turing.
 
-  <p align="center">- Disfruta de "Antiti" y compartelo entre tus amigxs -</p>
+- Disfruta de "Antiti" y compartelo entre tus amigxs -
 
 # Definición del producto
 
@@ -57,4 +54,4 @@ En una primera instancia  existe la necesidad de comunicar, compartir y conectar
 Al tener definidas las características de lxs usuarixs, se optó por diseñar un entorno sencillo, fácil de manejar, divertido y lúdico, que permita rapidez en su funcionamiento, así como en el entendimiento de las instrucciones, que sea dinámico y visualmente atractivo. Para esto se consideró el uso de secciones estilizadas de forma amigable (cajas con bordes redondeados, centradas y de tamaño compacto). Con respecto a la elección de los colores, se optó por el azul y el amarillo, teniendo en consideración los estudios sobre la psicologia del color en relación a lxs usuarixs de la aplicación (amarillo: indica alegría, optimismo, espontaneidad, diversión, creatividad y juventud y por esta razón es el color que se muestra al inicio; azul: remite a la simpatía, la confianza, independencia y practicidad, además es el color más apreciado entre adolescentes mujeres, por esta razón se consigna como el color del resultado). Además se consideró un fondo negro para darle mayor contraste a los colores de la aplicación. Sobre la elección del logo, se buscó una imagen que transmitiera la sensación de estar frente a un ‘meme’, es decir, que mostrara representara la parodia de algo serio. Sobre la fuente usada, se optó por manejar formas tipo sans-serif (transmiten modernidad, seguridad, alegría y en ciertas ocasiones minimalismo) y fantasy (aporta personalidad). Sobre el lenguaje de la aplicación, se hizo uso del lenguaje coloquial y también del idioma inglés, dada su creciente popularidad entre los adolescentes (pero no sé testeo en público objetivo). La decisión más importante sobre el diseño del producto fue la inclusión de una tercera sección que aportara un plus a la naturaleza secreta de la aplicación, a través de un botón para esconder el uso del “encryptioner” al profesor/a u otra persona que suponga una ‘amenaza’ al usuarix. El diseño de esta sección se pensó de forma sobria, pero no formal, para ir acorde con la línea general del producto.
 
 ## ¿Cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz?
-En primer lugar pensar en lxs usuarixs para quienes quería construir la aplicación y en las necesidades de ellxs que pudieran conectar con la temática del producto (encriptado de mensajes). Como segundo paso, definir la forma en la que pudieran interactuar con la aplicación, teniendo en cuenta que existen otras plataformas que ofrecen una mejor oferta para satisfacer las necesidades o resolver los problemas de lxs usuarixs objetivo. Se pensó entonces en construir una aplicación rápida en funcionalidad, que vaya directo a su objetivo y ofrezca la sensación de satisfacción inmediata, brindando un poco más de lo que se espera. Como tercer punto se tomaron las decisiones de diseño, colores, emplazamiento y formas, así como la adición de interacción y atractivo visual. Posteriormente se presentaron los avances a discusión en el equipo de trabajo para recabar sugerencias e identificar errores.</div>
+En primer lugar pensar en lxs usuarixs para quienes quería construir la aplicación y en las necesidades de ellxs que pudieran conectar con la temática del producto (encriptado de mensajes). Como segundo paso, definir la forma en la que pudieran interactuar con la aplicación, teniendo en cuenta que existen otras plataformas que ofrecen una mejor oferta para satisfacer las necesidades o resolver los problemas de lxs usuarixs objetivo. Se pensó entonces en construir una aplicación rápida en funcionalidad, que vaya directo a su objetivo y ofrezca la sensación de satisfacción inmediata, brindando un poco más de lo que se espera. Como tercer punto se tomaron las decisiones de diseño, colores, emplazamiento y formas, así como la adición de interacción y atractivo visual. Posteriormente se presentaron los avances a discusión en el equipo de trabajo para recabar sugerencias e identificar errores.
