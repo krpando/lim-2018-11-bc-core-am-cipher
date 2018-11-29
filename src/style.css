@@ -9,7 +9,7 @@ body{
   margin:auto;
   margin-top:100px;
   margin-bottom:10px;
-  width: 700px;
+  width: 680px;
   height: 390px;
   box-shadow: 0 4px 8px 0, 0 6px 20px 0;
   padding: 20px 0px;
@@ -166,8 +166,31 @@ body{
   background-color: red;
   border: 2px solid red;
 }
-@media(max-width: 700px) {
-  .grid-container {
-   width: 100%;
+/*Formato para otros dispositivos */
+@media screen and (max-width: 500px) {
+  .one,.two{
+   width: 90%;
+   height: 50%;
+  }
+  .three{
+    width: 90%;
+    height: 30%;
+   }
+   .imghide{
+     width:90%;
+     height: auto;
+   }
+   .imgfront,.mensaje,.resultado{
+    width:80%;
+    height: auto;
+  }
+   .ballonbox { 
+    width:230%;
+    height: auto;
+    position:relative;
+    }
+   .grid-container{
+    display:inline-block;
+    width: 100%;
   }
 }

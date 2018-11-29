@@ -31,11 +31,14 @@ Los tiempos de compartir secretos está cambiando, con la constante aparición d
 
 >### INSTRUCCIONES EXTRAS:
 - Para enviar código copiado vía 'WebWhatsapp':
-  [Aún en construcción]
+  1. Si deseas compartir tu mensaje cifrado por 'WebWhatsapp' recuerda que debes estar logueadx y haber enlazado tu cuenta Whatsapp previamente.
+  2. Solo debes darle 'click' al botón "ENVIAR" y se abrirá la página del 'WebWhatsapp'.
+  3. Elige un chat o grupo en el que quieras compartir tu mensaje cifrado y pega el mensaje que ya está copiado en el portapapeles.
+  4. Puedes utilizar el atajo: Ctrl+V para pegar directamente tu mensaje.
 - Para esconderte del o la teacher:
   1. Si mientras realizas tu cifrado o descifrado tienes a un adulto cerca, no te preocupes, solo hazle 'click' al botón "HIDE!" y podrás leer algo "académico" mientras el peligro pasa.
-  2. Cuando ya no hayan "moros en la costa", hazle 'click' a "CONTINUAR" y sigue con los tuyo.
-  3. Si el peligro aun no ha pasado, hazle 'click' al botón del pánico "QUIERO ESTUDIAR" y la aplicación se cerrará [Aún en construcción].
+  2. Cuando ya no hayan "moros en la costa", hazle 'click' a "CONTINUAR" y sigue con lo tuyo.
+  3. Si el peligro aun no ha pasado, hazle 'click' al botón del pánico "QUIERO ESTUDIAR" y la aplicación abrirá una página de Wikipedia para que "sigas aprendiendo" acerca del gran Alan Turing.
 
   <p align="center">- Disfruta de "Antiti" y compartelo entre tus amigxs -</p>
 

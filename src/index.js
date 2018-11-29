@@ -11,10 +11,10 @@ let msgOut=document.getElementById('result');
 //Correr función cifrar
 buttonMsgIn.addEventListener('click', ()=>{
 if (keyNumber.value=='' || msgIn.value==''){
-  alert('Debes rellenar el campo antes de continuar :/');
+  alert('Sin clave o mensaje no es posible el camuflaje (-_-)ゞ゛');
 } else{
   msgOut.innerHTML=cipher.encode(parseInt(keyNumber.value),msgIn.value);
-  document.getElementById('personalresult').innerHTML='Listo! ahora es secreto ( ͡° ͜ʖ ͡°)';
+  document.getElementById('personalresult').innerHTML='Listo! ya es secreto ( ͡° ͜ʖ ͡°)';
   document.getElementById('section1').style.display='none';
   document.getElementById('section2').style.display='block';
   document.getElementById('key').value="";
@@ -23,19 +23,22 @@ if (keyNumber.value=='' || msgIn.value==''){
 //Correr función descifrar
 buttonMsgOut.addEventListener('click', ()=>{
   if (keyNumber.value=='' || msgIn.value==''){
-    alert('Debes rellenar el campo antes de continuar :/');
+    alert('Sin clave o mensaje no es posible el camuflaje (-_-)ゞ゛');
   } else {
   msgOut.innerHTML=cipher.decode(parseInt(keyNumber.value),msgIn.value);
-  document.getElementById('personalresult').innerHTML='Uy! que interesante ( ͡° ͜ʖ ͡°)';
+  document.getElementById('personalresult').innerHTML='Uyuyuy! qué interesante ( ͡° ͜ʖ ͡°)';
   document.getElementById('section1').style.display='none';
   document.getElementById('section2').style.display='block';
   document.getElementById('key').value="";
   document.getElementById('msg').value="";
 }});
-/*Botón enviar texto copiado por Web.Whatsapp
+//Botón enviar texto copiado por Web.Whatsapp
 document.getElementById('send').addEventListener('click', ()=>{
-https://web.whatsapp.com/
-});*/
+  document.getElementById('result').select();
+// Copia el texto seleccionado
+  document.execCommand("copy");
+window.open("https://web.whatsapp.com/","_blank")
+});
 //Botón retornar al Menú
 document.getElementById('start').addEventListener('click', ()=>{
   document.getElementById('section2').style.display='none';
@@ -43,7 +46,7 @@ document.getElementById('start').addEventListener('click', ()=>{
 });
 //Botón ocultarse
 document.getElementById('hide').addEventListener('click', ()=>{
-   document.title = 'Me gusta estudiar :V';
+   document.title = 'Me encanta estudiar :V';
    document.body.style.backgroundImage = 'none';
    document.body.style.backgroundColor = '#000000';
    document.getElementById('section2').style.display='none';
@@ -54,9 +57,9 @@ document.getElementById('continue').addEventListener('click', ()=>{
   document.getElementById('section3').style.display='none';
   document.getElementById('section2').style.display='block';
   document.body.style.background = 'url(https://preview.ibb.co/ha0Jjq/Anti-Teacher-Background.png)';
-  document.title = 'ANTI -TEACHER. Your secreat classroom encryptioner';
+  document.title = 'ANTI -TEACHER. My secreat classroom encryptioner';
 });
 //"Quiero estudiar"
 document.getElementById('study').addEventListener('click', ()=>{
-  document.getElementById('section3').style.display='none';
+  window.open("https://es.wikipedia.org/wiki/Alan_Turing","_self")
 });
