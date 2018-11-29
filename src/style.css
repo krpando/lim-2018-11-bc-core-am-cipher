@@ -1,5 +1,7 @@
 body{
-  background-image:url(https://preview.ibb.co/ha0Jjq/Anti-Teacher-Background.png);
+  background-image:url(https://i.ibb.co/P1GTcG2/Anti-Teacher-Background.png);
+  background-size: 50%;
+  background-color: black;
   background-attachment: fixed;
 }
 /*Formato general de secciones*/
@@ -8,7 +10,7 @@ body{
   margin-top:100px;
   margin-bottom:10px;
   width: 700px;
-  height: 400px;
+  height: 480;
   box-shadow: 0 4px 8px 0, 0 6px 20px 0;
   padding: 20px 0px;
   box-sizing:border-box;
@@ -38,10 +40,10 @@ body{
   height:280px;
 }
 #imgcif:hover {
-    content: url('https://image.ibb.co/ncdqZq/Anti-Teacher-1.png');
+    content: url('https://i.ibb.co/N2ZFWMT/Anti-Teacher-1.png');
 }
 #imgdes:hover {
-    content: url('https://preview.ibb.co/ndveuq/Anti-Teacher-2.png');
+    content: url('https://i.ibb.co/9sQpdg2/Anti-Teacher-2.png');
 }
 .grid-container {
   display: grid;
