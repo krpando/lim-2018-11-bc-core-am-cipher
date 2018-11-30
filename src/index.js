@@ -34,10 +34,10 @@ buttonMsgOut.addEventListener('click', ()=>{
 }});
 //Botón enviar texto copiado por Web.Whatsapp
 document.getElementById('send').addEventListener('click', ()=>{
-  if (window.matchMedia("(max-width: 350px)").matches) { 
+  if (window.matchMedia("(max-width: 500px)").matches) { 
     document.getElementById('result').select();
     document.execCommand("copy");
-    window.open("api.whatsapp.com","_blank")
+    window.open("https://api.whatsapp.com","_blank")
   } else {
     document.getElementById('result').select();
     document.execCommand("copy");

@@ -57,3 +57,54 @@ Al tener definidas las características de lxs usuarixs, se optó por diseñar u
 ## ¿Cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz?
 En primer lugar pensar en lxs usuarixs para quienes quería construir la aplicación y en las necesidades de ellxs que pudieran conectar con la temática del producto (encriptado de mensajes). Como segundo paso, definir la forma en la que pudieran interactuar con la aplicación, teniendo en cuenta que existen otras plataformas que ofrecen una mejor oferta para satisfacer las necesidades o resolver los problemas de lxs usuarixs objetivo. Se pensó entonces en construir una aplicación rápida en funcionalidad, que vaya directo a su objetivo y ofrezca la sensación de satisfacción inmediata, brindando un poco más de lo que se espera. Como tercer punto se tomaron las decisiones de diseño, colores, emplazamiento y formas, así como la adición de interacción y atractivo visual. Posteriormente se presentaron los avances a discusión en el equipo de trabajo para recabar sugerencias e identificar errores.
 
+# Descripción de las características y funcionalidad del producto
+
+La aplicación cuenta con tres secciones principales: Sección de bienvenida, sección de resultados y sección escondite.
+
+La **primera sección** muestra el logo de la aplicación, y las casillas para el rellenado de la clave numérica y el mensaje que desea cifrarse o descifrarse. 
+
+<p align="center"><img src="https://i.ibb.co/f9DTNq9/Anti-Teacher-Prueba1a.png" width="420px"/></p>
+
+La entrada de la clave solo permite la escritura de números enteros superiores al 0, mientras que la entrada de mensajes acepta caracteres de tipo texto. Asimismo, exige el ingreso de ambas condiciones, en caso contrario muestra el alerta correspondiente ("Sin clave o mensaje no es posible el camuflaje (-_-)ゞ゛") .
+
+En su versión para navegadores, la imagen de logo despliega un aviso oculto con las intrucciones de la aplicación, al pasar el mouse por encima de esta.
+
+Se pueden apreciar dos botones: `CIFRAR` y `DESCIFRAR`. Cada unos realiza una acción distinta como se detalla: 
+
+   Botón `CIFRADO`:  
+     - Convierte el texto original en texto cifrado a partir del desplazamiento indicado en la casilla de clave.
+     - Al ser pulsado carga la siguiente sección, limpiando los campos anteriormente rellenados y mostrando el mensaje: "Listo! ya es secreto" junto con el mensaje cifrado.
+
+   Botón `DESCIFRADO`:  
+     - Devuelve el texto original a partir del desplazamiento o clave brindado.
+     - Al ser pulsado carga la siguiente sección, limpiando los campos anteriormente rellenados y mostrando el mensaje: "Uyuyuy, que interesante!" junto con el mensaje cifrado.
+
+La **segunda sección** cuenta, asimismo, con tres alternativas de acción, además de la explicación de las características de una de las acciones. Esta se muestra al pasar el mouse por la imagen del logo.
+
+   Botón `ENVIAR`:  
+     - Abre una nueva pestaña o página que carga la versión para navegadores de la aplicación móvil 'WhastApp'.
+     - Si el o la usuarix está logueadx, podrá pegar el mensaje cifrado que arrojó la aplicación.
+     - Tan solo deberá elegir un chat o grupo y utilizar el atajo `Ctrl+V` para pegar el texto ya guardado en portapapeles.
+
+   Botón `INICIO`:  
+     - Borra todos los campos utilizados y retorna a la sección de bienvenida.
+
+   Botón `HIDE!`:  
+     - Abre la tercera sección, mostrando cambios tales como: 
+        1. Background de un solo color sin mostrar el logo u otro distintivo de la aplicación.
+        2. Título de la pestaña cambia de nombre a: "Me encanta estudiar :V"
+    - Al pasar el mouse sobre el botón, se desplegará un balón de diálogo que indica el objetivo del botón.
+
+Para la versión móvil, la opción de envío se está manejando con la aplicación 'Whatsapp'
+
+<p align="center"><img src="https://i.ibb.co/xmvG56s/Anti-Teacher-Prueba1b.png" width="420px"/></p>
+
+La **tercera sección** se trata de una seccion de ayuda para camuflar la actividad. Cuenta con una imagen que simula la actividad académica y además dos botnes con los siguientes objetivos:
+
+   Botón `CONTINUAR`: 
+    - Retorna a la primera página y continúa con el cifrado o descifrado que está realizando.
+   
+   Botón `QUIERO ESTUDIAR`: 
+    - Carga en la presente página un enlace a Wikipedia, "para seguir estudiando"
+
+Creado por Karla Rodriguez (#SweetPurpleDragon).
