@@ -2,10 +2,9 @@
 
 **ANTI TEACHER, My secret classroom encryptioner** es una aplicación web para el cifrado y descifrado de mensajes secretos para uso de estudiantes en contextos educativos que incluyan el uso de herramientas tecnológicas, lo que usualmente refiere a las clases de Informática, Computación u otros cursos que integren estos recursos durante su desarrollo. 
 
-La dinámica de esta aplicación asemeja la de un juego de ocultar mensajes con símbolos, utilizando un alfabeto creado para dicho fin. La diferencia entre esa forma de encriptar es que, *ANTI-TEACHER*, ofrece un cifrado tipo César, donde se sustituye una letra de alfabeto por otra que se encuentra a cierto número de posiciones o desplazamiento en el mismo alfabeto. De esta forma, a través de un número fijo, se obtendrá un texto único y solo descifrado con ese número escogido.
+La dinámica de esta aplicación asemeja la de un juego de ocultar mensajes con símbolos, utilizando un alfabeto creado para dicho fin. La diferencia entre esa forma de encriptar es que, *ANTI-TEACHER*, ofrece un cifrado tipo César, donde se sustituye una letra de alfabeto por otra que se encuentra a cierto número de posiciones o desplazamiento en el mismo alfabeto. De esta forma, a través de un número fijo, se obtendrá un texto único y solo descifrado con ese número escogido. A continuación se detallan las instrucciones y funcionalidad de la aplicación.
 
-A continuación se detallan las instrucciones y funcionalidad de la aplicación:
-
+***
 <p align="center"><img src="https://i.ibb.co/tcdkmq4/Anti-Teacher.png" width="300px"/></p>
 
 <p align="center"><strong>|-ANTI-TEACHER-|</strong></p>
@@ -19,7 +18,7 @@ Los tiempos de compartir secretos está cambiando, con la constante aparición d
 
 > ### INSTRUCCIONES:
 1. Abre la aplicación en el siguiente link: [Quiero probarla!](https://krpando.github.io/lim-2018-11-bc-core-am-cipher/src/)
-2. Coloca en el recuadro de `Clave" (#)` el código numérico para cifrar o descifrar:
+2. Coloca en el recuadro de `Clave (#)` el código numérico para cifrar o descifrar:
     - Para cifrar: Elige un número secreto que será el código de descifrado que utilizarás en adelante.
     - Para descifrar: Asegurate de tener el número o código único de descifrado que te han proporcionado.
 3. Ingresa en el recuadro de "Mensaje" el texto que deseas cifrar o descifrar.
@@ -39,6 +38,8 @@ Los tiempos de compartir secretos está cambiando, con la constante aparición d
 
 <p align="center">- Disfruta de <em>Antiti</em> y compartelo entre tus amigxs -</p>
 
+***
+
 # Definición del producto
 
 ## ¿Quiénes son lxs principales usuarixs del producto?
@@ -55,3 +56,4 @@ Al tener definidas las características de lxs usuarixs, se optó por diseñar u
 
 ## ¿Cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz?
 En primer lugar pensar en lxs usuarixs para quienes quería construir la aplicación y en las necesidades de ellxs que pudieran conectar con la temática del producto (encriptado de mensajes). Como segundo paso, definir la forma en la que pudieran interactuar con la aplicación, teniendo en cuenta que existen otras plataformas que ofrecen una mejor oferta para satisfacer las necesidades o resolver los problemas de lxs usuarixs objetivo. Se pensó entonces en construir una aplicación rápida en funcionalidad, que vaya directo a su objetivo y ofrezca la sensación de satisfacción inmediata, brindando un poco más de lo que se espera. Como tercer punto se tomaron las decisiones de diseño, colores, emplazamiento y formas, así como la adición de interacción y atractivo visual. Posteriormente se presentaron los avances a discusión en el equipo de trabajo para recabar sugerencias e identificar errores.
+
