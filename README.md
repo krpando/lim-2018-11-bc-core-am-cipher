@@ -52,7 +52,9 @@ El objetivo principal es contar con una herramienta que permita la creación de 
 En una primera instancia  existe la necesidad de comunicar, compartir y conectar. En contextos educativos esta necesidad es primordial en el proceso de socialización los usuarixs definidos. También nos encontramos con la búsqueda de privacidad y la necesidad del secretismo en las comunicaciones (bien por pudor o por buscar parecer interesante), especialmente cuando se trata de compartir con otrxs sus pensamientos y/o sentimientos. El problema principal radica en la imposibilidad de mantener en secreto una comunicación entre usuarixs en un contexto educativo, teniendo como mayor obstáculo la presencia de un adulto o adulta  (teacher) y en menor medida, la de otrxs potenciales usuarixs quienes pueden interceptar el mensaje secreto y ponerlo en evidencia o exponerlo. Al realizar un cifrado  completo de determinado texto, por medio de un código único y solo conocido por lxs usuarixs de la aplicación que realizan el intercambio comunicativo, las posibilidades de exponer el mensaje real se reducen significativamente, y se preserva la necesidad del secretismo. Asimismo, se logra cubrir las necesidades de comunicación y conexión de lxs usuarixs objetivo.
 
 ## Decisiones de diseño que se tomaron:
-Al tener definidas las características de lxs usuarixs, se optó por diseñar un entorno sencillo, fácil de manejar, divertido y lúdico, que permita rapidez en su funcionamiento, así como en el entendimiento de las instrucciones, que sea dinámico y visualmente atractivo. Para esto se consideró el uso de secciones estilizadas de forma amigable (cajas con bordes redondeados, centradas y de tamaño compacto). Con respecto a la elección de los colores, se optó por el azul y el amarillo, teniendo en consideración los estudios sobre la psicologia del color en relación a lxs usuarixs de la aplicación (amarillo: indica alegría, optimismo, espontaneidad, diversión, creatividad y juventud y por esta razón es el color que se muestra al inicio; azul: remite a la simpatía, la confianza, independencia y practicidad, además es el color más apreciado entre adolescentes mujeres, por esta razón se consigna como el color del resultado). Además se consideró un fondo negro para darle mayor contraste a los colores de la aplicación. Sobre la elección del logo, se buscó una imagen que transmitiera la sensación de estar frente a un ‘meme’, es decir, que mostrara representara la parodia de algo serio. Sobre la fuente usada, se optó por manejar formas tipo sans-serif (transmiten modernidad, seguridad, alegría y en ciertas ocasiones minimalismo) y fantasy (aporta personalidad). Sobre el lenguaje de la aplicación, se hizo uso del lenguaje coloquial y también del idioma inglés, dada su creciente popularidad entre los adolescentes (pero no sé testeo en público objetivo). La decisión más importante sobre el diseño del producto fue la inclusión de una tercera sección que aportara un plus a la naturaleza secreta de la aplicación, a través de un botón para esconder el uso del “encryptioner” al profesor/a u otra persona que suponga una ‘amenaza’ al usuarix. El diseño de esta sección se pensó de forma sobria, pero no formal, para ir acorde con la línea general del producto.
+Al tener definidas las características de lxs usuarixs, se optó por diseñar un entorno sencillo, fácil de manejar, divertido y lúdico, que permita rapidez en su funcionamiento, así como en el entendimiento de las instrucciones, que sea dinámico y visualmente atractivo. Para esto se consideró el uso de secciones estilizadas de forma amigable (cajas con bordes redondeados, centradas y de tamaño compacto). Con respecto a la elección de los colores, se optó por el azul y el amarillo, teniendo en consideración los estudios sobre la psicologia del color en relación a lxs usuarixs de la aplicación (amarillo: indica alegría, optimismo, espontaneidad, diversión, creatividad y juventud y por esta razón es el color que se muestra al inicio; azul: remite a la simpatía, la confianza, independencia y practicidad, además es el color más apreciado entre adolescentes mujeres, por esta razón se consigna como el color del resultado). Además se consideró un fondo negro para darle mayor contraste a los colores de la aplicación. Sobre la elección del logo, se buscó una imagen que transmitiera la sensación de estar frente a un ‘meme’, es decir, que mostrara representara la parodia de algo serio. 
+
+Sobre la fuente usada, se optó por manejar formas tipo sans-serif (transmiten modernidad, seguridad, alegría y en ciertas ocasiones minimalismo) y fantasy (aporta personalidad). Sobre el lenguaje de la aplicación, se hizo uso del lenguaje coloquial y también del idioma inglés, dada su creciente popularidad entre los adolescentes (pero no sé testeo en público objetivo). La decisión más importante sobre el diseño del producto fue la inclusión de una tercera sección que aportara un plus a la naturaleza secreta de la aplicación, a través de un botón para esconder el uso del “encryptioner” al profesor/a u otra persona que suponga una ‘amenaza’ al usuarix. El diseño de esta sección se pensó de forma sobria, pero no formal, para ir acorde con la línea general del producto.
 
 ## ¿Cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz?
 En primer lugar pensar en lxs usuarixs para quienes quería construir la aplicación y en las necesidades de ellxs que pudieran conectar con la temática del producto (encriptado de mensajes). Como segundo paso, definir la forma en la que pudieran interactuar con la aplicación, teniendo en cuenta que existen otras plataformas que ofrecen una mejor oferta para satisfacer las necesidades o resolver los problemas de lxs usuarixs objetivo. Se pensó entonces en construir una aplicación rápida en funcionalidad, que vaya directo a su objetivo y ofrezca la sensación de satisfacción inmediata, brindando un poco más de lo que se espera. Como tercer punto se tomaron las decisiones de diseño, colores, emplazamiento y formas, así como la adición de interacción y atractivo visual. Posteriormente se presentaron los avances a discusión en el equipo de trabajo para recabar sugerencias e identificar errores.
@@ -63,7 +65,7 @@ La aplicación cuenta con tres secciones principales: Sección de bienvenida, se
 
 La **primera sección** muestra el logo de la aplicación, y las casillas para el rellenado de la clave numérica y el mensaje que desea cifrarse o descifrarse. 
 
-<p align="center"><img src="https://i.ibb.co/f9DTNq9/Anti-Teacher-Prueba1a.png" width="420px"/></p>
+<p align="center"><img src="https://i.ibb.co/f9DTNq9/Anti-Teacher-Prueba1a.png" width="820px"/></p>
 
 La entrada de la clave solo permite la escritura de números enteros superiores al 0, mientras que la entrada de mensajes acepta caracteres de tipo texto. Asimismo, exige el ingreso de ambas condiciones, en caso contrario muestra el alerta correspondiente ("Sin clave o mensaje no es posible el camuflaje (-_-)ゞ゛") .
 
@@ -71,40 +73,47 @@ En su versión para navegadores, la imagen de logo despliega un aviso oculto con
 
 Se pueden apreciar dos botones: `CIFRAR` y `DESCIFRAR`. Cada unos realiza una acción distinta como se detalla: 
 
-   Botón `CIFRADO`:  
-     - Convierte el texto original en texto cifrado a partir del desplazamiento indicado en la casilla de clave.
-     - Al ser pulsado carga la siguiente sección, limpiando los campos anteriormente rellenados y mostrando el mensaje: "Listo! ya es secreto" junto con el mensaje cifrado.
+   Botón `CIFRADO`:
+   
+   - Convierte el texto original en texto cifrado a partir del desplazamiento indicado en la casilla de clave.
+   - Al ser pulsado carga la siguiente sección, limpiando los campos anteriormente rellenados y mostrando el mensaje: "Listo! ya es secreto" junto con el mensaje cifrado.
 
-   Botón `DESCIFRADO`:  
-     - Devuelve el texto original a partir del desplazamiento o clave brindado.
-     - Al ser pulsado carga la siguiente sección, limpiando los campos anteriormente rellenados y mostrando el mensaje: "Uyuyuy, que interesante!" junto con el mensaje cifrado.
+   Botón `DESCIFRADO`:
+   
+   - Devuelve el texto original a partir del desplazamiento o clave brindado.
+   - Al ser pulsado carga la siguiente sección, limpiando los campos anteriormente rellenados y mostrando el mensaje: "Uyuyuy, que interesante!" junto con el mensaje cifrado.
 
 La **segunda sección** cuenta, asimismo, con tres alternativas de acción, además de la explicación de las características de una de las acciones. Esta se muestra al pasar el mouse por la imagen del logo.
 
-   Botón `ENVIAR`:  
-     - Abre una nueva pestaña o página que carga la versión para navegadores de la aplicación móvil 'WhastApp'.
-     - Si el o la usuarix está logueadx, podrá pegar el mensaje cifrado que arrojó la aplicación.
-     - Tan solo deberá elegir un chat o grupo y utilizar el atajo `Ctrl+V` para pegar el texto ya guardado en portapapeles.
+   Botón `ENVIAR`:
+   
+   - Abre una nueva pestaña o página que carga la versión para navegadores de la aplicación móvil 'WhastApp'.
+   - Si el o la usuarix está logueadx, podrá pegar el mensaje cifrado que arrojó la aplicación.
+   - Tan solo deberá elegir un chat o grupo y utilizar el atajo `Ctrl+V` para pegar el texto ya guardado en portapapeles.
 
-   Botón `INICIO`:  
-     - Borra todos los campos utilizados y retorna a la sección de bienvenida.
+   Botón `INICIO`:
+   
+   - Borra todos los campos utilizados y retorna a la sección de bienvenida.
 
-   Botón `HIDE!`:  
-     - Abre la tercera sección, mostrando cambios tales como: 
+   Botón `HIDE!`:
+   
+   - Abre la tercera sección, mostrando cambios tales como: 
         1. Background de un solo color sin mostrar el logo u otro distintivo de la aplicación.
         2. Título de la pestaña cambia de nombre a: "Me encanta estudiar :V"
-    - Al pasar el mouse sobre el botón, se desplegará un balón de diálogo que indica el objetivo del botón.
+   - Al pasar el mouse sobre el botón, se desplegará un balón de diálogo que indica el objetivo del botón.
 
 Para la versión móvil, la opción de envío se está manejando con la aplicación 'Whatsapp'
 
-<p align="center"><img src="https://i.ibb.co/xmvG56s/Anti-Teacher-Prueba1b.png" width="420px"/></p>
+<p align="center"><img src="https://i.ibb.co/xmvG56s/Anti-Teacher-Prueba1b.png" width="620px"/></p>
 
 La **tercera sección** se trata de una seccion de ayuda para camuflar la actividad. Cuenta con una imagen que simula la actividad académica y además dos botnes con los siguientes objetivos:
 
-   Botón `CONTINUAR`: 
-    - Retorna a la primera página y continúa con el cifrado o descifrado que está realizando.
+   Botón `CONTINUAR`:
    
-   Botón `QUIERO ESTUDIAR`: 
-    - Carga en la presente página un enlace a Wikipedia, "para seguir estudiando"
+   - Retorna a la primera página y continúa con el cifrado o descifrado que está realizando.
+   
+   Botón `QUIERO ESTUDIAR`:
+   
+   - Carga en la presente página un enlace a Wikipedia, "para seguir estudiando"
 
-Creado por Karla Rodriguez (#SweetPurpleDragon).
+<p align="right">Creado por Karla Rodriguez (#SweetPurpleDragon).</p>
