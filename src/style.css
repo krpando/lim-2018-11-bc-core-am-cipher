@@ -5,7 +5,7 @@ body{
   background-attachment: fixed;
 }
 /*Formato general de secciones*/
-.welcome,.results,.hiding-place {
+.bienvenida,.resultados,.escondite {
   margin:auto;
   margin-top:8%;
   margin-bottom:15px;
@@ -32,7 +32,7 @@ body{
  border-radius: 4px;
 }
 /*SECTION ONE: Welcome*/
-.welcome{
+.bienvenida{
   color: black;
   background-color: yellow;
 }
@@ -92,7 +92,7 @@ body{
   border: 2px solid black;
  }
 /*SECTION two: Results*/
-.results {
+.resultados {
   box-sizing:border-box;
   box-shadow: none;
   color: white;
@@ -138,16 +138,19 @@ body{
   border: 2px solid red;
 }
 /*Imagen tipo title*/
+.go-hide{
+  height: 100px;
+}
 .hidden button { position:relative; }
-.hidden button img { position:absolute; display:none; z-index:99; }
-.hidden button:hover img { display:block; }
+.hidden button .go-hide { position:absolute; display:none; z-index:99; }
+.hidden button:hover .go-hide { display:block; }
 /*SECTION three*/
 .img-turing{
   width:590px;
   height:400px;
   margin-bottom: 20px;
 }
-.hiding-place {
+.escondite {
   text-align:center;
   background-color: white;
   margin-top:3%;
@@ -168,11 +171,11 @@ body{
 }
 /*Formato para otros dispositivos */
 @media screen and (max-width: 500px) {
-  .welcome,.results{
+  .bienvenida,.resultados{
    width: 90%;
    height: 50%;
   }
-  .hiding-place{
+  .escondite{
     margin-top: 10%;
     width: 90%;
     height: 30%;
