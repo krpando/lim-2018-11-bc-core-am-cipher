@@ -1,53 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8"/>
     <title>ANTI -TEACHER. My secreat classroom encryptioner</title>
     <link rel="stylesheet" href="style.css"/>
   </head>
-    <body>
+  <body>
 <!--Section One: Welcome Page-->
-     <section class="one" id="section1">
+    <div class="bienvenida" id="welcome">
       <div class="grid-container">
-       <div class="grid-item">
-        <img src="https://i.ibb.co/tcdkmq4/Anti-Teacher.png" class="imgfront" id="imgcif"/>
-       </div>
-       <div class="grid-item">
-        <article>
-          <label>Clave </label><input type="number" min="1" placeholder="#" class="clave" id="key"/>
-           <p>Mensaje</p><textarea placeholder="Escribe aquí tu mensaje ( ͡° ͜ʖ ͡°)" class="mensaje" id="msg"></textarea>
-        </article>
-        <article><button class="cifrar" id="enco">CIFRAR</button>
-                 <button class="descifrar" id="deco">DESCIFRAR</button>
-        </article>
-       </div>
-      </div>
-     </section>
-<!--Section Two: Results Page-->
-     <section class="two" id="section2">
-       <div class="grid-container">
-        <div class="grid-item"><img src="https://i.ibb.co/tcdkmq4/Anti-Teacher.png" class="imgfront" id="imgdes"/>
+        <div class="grid-item">
+          <img src="https://i.ibb.co/tcdkmq4/Anti-Teacher.png" alt="Anti-Teacher super cool logo" class="logo" id="img-welcome"/>
         </div>
         <div class="grid-item">
-         <article>
-           <p id="personalresult"></p><textarea class="resultado" id="result"></textarea>
-         </article>
-         <article><button class="enviar" id="send">ENVIAR</button></article>
-         <article class="hoverhide"><button class="inicio" id="start">INICIO</button>
-               <button class="esconder" id="hide">HIDE!<img src="https://i.ibb.co/wS3wC2R/Anti-Teacher-Ballon.png" alt="image" height="100px" class="ballonbox"/></button>
-         </article>
+          <form>
+            <label>Clave </label>
+            <input type="number" placeholder="#" class="clave" id="key"/>
+            <p>Mensaje</p>
+            <textarea placeholder="Escribe aquí tu mensaje ( ͡° ͜ʖ ͡°)" class="mensaje-in" id="msg-in"></textarea>
+          </form>
+          <form>
+            <button type="button" class="cifrar" id="enco">CIFRAR</button>
+            <button type="button" class="descifrar" id="deco">DESCIFRAR</button>
+          </form>
         </div>
-       </div>
-     </section>
+      </div>
+    </div>
+<!--Section Two: Results Page-->
+    <div class="resultados" id="results">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="https://i.ibb.co/tcdkmq4/Anti-Teacher.png" alt="Anti-Teacher super cool logo" class="logo" id="img-results"/>
+        </div>
+        <div class="grid-item">
+          <form>
+            <p id="personalresult"></p>
+            <textarea class="mensaje-out" id="msg-out"></textarea>
+          </form>
+          <form>
+            <button type="button" class="enviar" id="send">ENVIAR</button>
+          </form>
+          <form class="hidden">
+            <button type="button" class="inicio" id="start">INICIO</button>
+            <button class="esconder" id="hide">HIDE!
+              <img src="https://i.ibb.co/wS3wC2R/Anti-Teacher-Ballon.png" alt="El profe está cerca, ve a enconderte" class="go-hide"/>
+            </button>
+         </form>
+        </div>
+      </div>
+    </div>
 <!--Section Three: Let's hide!-->
-     <section class="three" id="section3">
-       <img src="https://i.ibb.co/tcY4vC6/Dato-Historico-little.png" class="imghide"/>
-         <article><button class="continuar" id="continue">CONTINUAR</button>
-               <button class="estudiar" id="study">QUIERO ESTUDIAR</button>
-         </article>
-     </section>
+    <div class="escondite" id="hiding-place">
+      <img src="https://i.ibb.co/tcY4vC6/Dato-Historico-little.png" alt="Para estudiar sobre Alan Turing" class="img-turing"/>
+        <form>
+          <button type="button" class="continuar" id="continue">CONTINUAR</button>
+          <button type="button" class="estudiar" id="study">QUIERO ESTUDIAR</button>
+        </form>
+    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
-  <div class="autoria">Created by #SweetPurpleDragon</div>
+  <div class="autora">Created by #SweetPurpleDragon</div>
 </html>

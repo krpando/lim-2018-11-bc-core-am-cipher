@@ -5,7 +5,7 @@ body{
   background-attachment: fixed;
 }
 /*Formato general de secciones*/
-.one,.two,.three {
+.welcome,.results,.hiding-place {
   margin:auto;
   margin-top:8%;
   margin-bottom:15px;
@@ -19,7 +19,7 @@ body{
   border-radius: 20px;
   display: flex;
 }
-.autoria{
+.autora{
  text-align: center;
  margin: auto;
  margin-bottom: 10px;
@@ -31,19 +31,19 @@ body{
  font-variant-caps: small-caps;
  border-radius: 4px;
 }
-/*SECTION ONE*/
-.one{
+/*SECTION ONE: Welcome*/
+.welcome{
   color: black;
   background-color: yellow;
 }
-.imgfront{
+.logo{
   width:330px;
   height:280px;
 }
-#imgcif:hover {
+#img-welcome:hover {
     content: url('https://i.ibb.co/N2ZFWMT/Anti-Teacher-1.png');
 }
-#imgdes:hover {
+#img-results:hover {
     content: url('https://i.ibb.co/9sQpdg2/Anti-Teacher-2.png');
 }
 .grid-container {
@@ -65,7 +65,7 @@ body{
   border-radius: 10px;
 }
 /*Formato de caja para ingresar texto*/
-.mensaje,.resultado{
+.mensaje-in,.mensaje-out{
   margin: -10px 0 0 0;
   height:150px;
   width: 250px;
@@ -91,8 +91,8 @@ body{
   background-color: black;
   border: 2px solid black;
  }
-/*SECTION two*/
-.two {
+/*SECTION two: Results*/
+.results {
   box-sizing:border-box;
   box-shadow: none;
   color: white;
@@ -138,16 +138,16 @@ body{
   border: 2px solid red;
 }
 /*Imagen tipo title*/
-.hoverhide button { position:relative; }
-.hoverhide button img { position:absolute; display:none; z-index:99; }
-.hoverhide button:hover img { display:block; }
+.hidden button { position:relative; }
+.hidden button img { position:absolute; display:none; z-index:99; }
+.hidden button:hover img { display:block; }
 /*SECTION three*/
-.imghide{
+.img-turing{
   width:590px;
   height:400px;
   margin-bottom: 20px;
 }
-.three {
+.hiding-place {
   text-align:center;
   background-color: white;
   margin-top:3%;
@@ -168,24 +168,24 @@ body{
 }
 /*Formato para otros dispositivos */
 @media screen and (max-width: 500px) {
-  .one,.two{
+  .welcome,.results{
    width: 90%;
    height: 50%;
   }
-  .three{
+  .hiding-place{
     margin-top: 10%;
     width: 90%;
     height: 30%;
   }
-  .imghide{
+  .img-turing{
     width:90%;
     height: auto;
   }
-  .imgfront,.mensaje,.resultado{
+  .logo,.mensaje-in,.mensaje-out{
    width:80%;
    height: auto;
   }
-  .ballonbox { 
+  .go-hide{ 
    width:230%;
    height: auto;
    position:relative;
