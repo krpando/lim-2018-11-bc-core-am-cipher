@@ -169,8 +169,8 @@ body{
   background-color: red;
   border: 2px solid red;
 }
-/*Formato para tablet */
-@media screen and (max-width: 750px) {
+/*Formato para tablet (1)*/
+@media screen and (max-width: 768px){
   .bienvenida,.resultados{
    width: 78%;
    height: 50%;
@@ -185,7 +185,7 @@ body{
     height: auto;
   }
   .logo{
-   width:95%;
+   width:100%;
    height: auto;
   }
   .mensaje-in,.mensaje-out{
@@ -200,18 +200,40 @@ body{
     width: 95%;
   }
 }
-/*Formato para tablet */
-@media screen and (max-width: 650px) {
+/*Formato para tablet (2)*/
+@media screen and (max-width: 700px){
+  .bienvenida,.resultados{
+   width: 78%;
+   height: 30%;
+  }
+  .escondite{
+    margin-top: 8%;
+    width: 78%;
+    height: 50%;
+  }
   .img-turing{
-    width:75%;
+    width:70%;
     height: auto;
   }
   .logo{
-   width:100%;
+   width:50%;
    height: auto;
   }
+  .mensaje-in,.mensaje-out{
+    width: 80%;
+    height: 40px;
+  }
+  .continuar,.estudiar{
+   display:inline-block;
+   width: 70%;
+  }
+  .grid-container{
+    width: 100%;
+    display: inline-block;
+  }
+}
 /*Formato para dispositivo móvil */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px){
   .bienvenida,.resultados{
    width: 80%;
    height: 35%;

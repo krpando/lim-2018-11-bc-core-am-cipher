@@ -40,10 +40,9 @@ btnDeco.addEventListener("click", () => {
   }});
 //Botón enviar texto copiado por Web.Whatsapp
 document.getElementById("send").addEventListener("click", () => {
-  document.getElementById("msg-out").select();
-  document.execCommand("copy");
-  if (window.matchMedia("(max-width: 500px)").matches) { 
-    window.open("https://api.whatsapp.com/send?","_blank");
+  let thisText=document.getElementById("msg-out").value;
+    if (window.matchMedia("(max-width: 480px)").matches) { 
+    window.open("https://api.whatsapp.com/send?text="+thisText,"_blank");
   } else {
     window.open("https://web.whatsapp.com/","_blank");
   }
