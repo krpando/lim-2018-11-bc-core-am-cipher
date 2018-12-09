@@ -44,7 +44,7 @@ document.getElementById("send").addEventListener("click", () => {
     if (window.matchMedia("(max-width: 480px)").matches) { 
     window.open("https://api.whatsapp.com/send?text="+thisText,"_blank");
   } else {
-    window.open("https://web.whatsapp.com/","_blank");
+    window.open("https://web.whatsapp.com/send?text="+thisText,"_blank");
   }
 });
 //Botón retornar al Menú
