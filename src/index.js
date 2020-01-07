@@ -39,13 +39,20 @@ btnDeco.addEventListener("click", () => {
     document.getElementById("msg-in").value = "";
   }});
 //Botón enviar texto copiado por Web.Whatsapp
-document.getElementById("send").addEventListener("click", () => {
+/*document.getElementById("send").addEventListener("click", () => {
   let thisText=document.getElementById("msg-out").value;
     if (window.matchMedia("(max-width: 480px)").matches) { 
     window.open("https://api.whatsapp.com/send?text="+thisText,"_blank");
   } else {
     window.open("https://web.whatsapp.com/send?text="+thisText,"_blank");
   }
+});*/
+//Botón enviar texto copiado por Web.Whatsapp (versión Kim)
+document.getElementById("send").addEventListener("click", () => {
+  let thisText=document.getElementById("msg-out").value;
+  const mq = screen.width <= 480;
+  mq ? window.open("https://api.whatsapp.com/send?text="+thisText,"_blank") 
+  : window.open("https://web.whatsapp.com/send?text="+thisText,"_blank")
 });
 //Botón retornar al Menú
 document.getElementById("start").addEventListener("click", () => {
